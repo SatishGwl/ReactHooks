@@ -1,8 +1,9 @@
 import './App.css';
-import UseEffectHooksObject from './component/UseStateHooksObject';
+// import UseEffectHooksObject from './component/UseStateHooksObject';
 // import HookCounter from './component/HookCounter';
 // import ClassCounter from './component/ClassCounter';
 // import HookCounter2 from './component/HookCounter2';
+import UseStateHookWithArray from './component/UseStateHookWithArray'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <ClassCounter/> */}
       {/* <HookCounter/> */}
       {/* <HookCounter2/> */}
-      <UseEffectHooksObject/>
+      {/* <UseEffectHooksObject/> */}
+      <UseStateHookWithArray/>
     </div>
   );
 }
